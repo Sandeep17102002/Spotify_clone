@@ -40,7 +40,7 @@ nav ul li{
     width:70%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url('cover/sp.jpg');
+    background-image: url('covers/sp.jpg');
 }
 .bottom{
     position: sticky;
