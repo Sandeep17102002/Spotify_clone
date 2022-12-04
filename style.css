@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body{
+    background-color:rgb(219, 214, 214);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Rubik', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 68px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding:0px 12px;
+}
+.brand img{
+    width: 50px;
+    padding: 0px 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width:70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('sp.jpg');
+}
+.bottom{
+    position: sticky;
+    height:130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem{
+    height: 48px;
+    display:flex;
+    background-color: white;
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    width:140%;
+}
+.songItem img{
+    width:42px;
+    margin:0 23px;
+    border-radius: 34px;
+}
+.time{
+    margin: 0 25px;
+}
+.time i{
+    cursor: pointer;
+}
+.songscontainer{
+    margin-top: 75px;
+}
+.songinfo{
+    position:absolute;
+    left:9vw;
+    font-family: 'Rubik', sans-serif;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
